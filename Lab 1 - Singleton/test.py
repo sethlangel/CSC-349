@@ -1,9 +1,9 @@
 from generate import generate
 import subprocess
 
-for i in range(100):
+for i in range(5):
     fileName = generate()
-    command = ["python", "slangel_lab1.py", fileName]
+    command = ["python3", "/slangel_lab1.py", fileName]
 
     # Execute the command
     try:
